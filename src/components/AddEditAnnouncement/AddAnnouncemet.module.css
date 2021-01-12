@@ -1,0 +1,85 @@
+.add {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    z-index: 10;
+  }
+.add:target {
+    display: block;
+}
+  
+.add::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+  
+.addWrapper {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 5px rgba(0, 0, 0, .3);
+    vertical-align: middle;
+}
+.inputWrapper{
+    margin-top: 10px;
+    display: flex;
+}
+.input{
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+}
+.textWrapper{
+    margin-top: 20px;
+   display: flex;
+}
+.text{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+}
+.but{
+    width: 80px;
+    height: 40px;
+    text-decoration: none;
+    color:black;
+}
+.buttonWrapper{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    margin-top: 10px;  
+}
+.alert {
+    display: none;
+    padding: 20px;
+    background-color: #f44336; 
+    color: white;
+    margin: 0 auto;
+    width: 86%;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+.hide{
+    display: none;
+}

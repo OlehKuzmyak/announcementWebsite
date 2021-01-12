@@ -1,0 +1,21 @@
+.buttons{
+    margin-left: 80.3%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.data, .buttons{
+    display: inline;
+}
+.delButon{
+    background-color: white;
+    border: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+.editButon{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
